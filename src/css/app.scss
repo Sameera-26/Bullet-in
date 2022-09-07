@@ -1,0 +1,19 @@
+// app global css in SCSS form
+/* righteous-regular - latin */
+@font-face {
+  font-family: "Righteous";
+  font-style: normal;
+  font-weight: 400;
+  src: url("src/css/fonts/righteous-v13-latin-ext-regular.woff");
+  /* Super Modern Browsers */
+}
+@font-face {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 600;
+  src: url("src/css/fonts/Sen-Regular.otf");
+}
+@font-face {
+  font-family: "Sen-bold";
+  src: url("src/css/fonts/Sen-ExtraBold.otf");
+}
