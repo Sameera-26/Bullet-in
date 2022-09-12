@@ -1,18 +1,19 @@
-s
 <template>
   <q-page>
-    <div>
-      <div class="row q-pa-xl">
-        <!-- LEFT COLUMN -->
-        <div class="col-md-6 col-lg-6 col-xs-10 col-sm-10">
-          <div class="q-pa-md q-space-x-lg shrink">
-            <div class="ti text-left text-primary text-h3">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.15/tailwind.min.css" />
+    <div class="row ">
+    <div class="col-md-6 col-lg-6 col-xs-20 col-sm-16 ">
+    <div class="q-pa-md q-space-x-lg shrink">
+      <div class="mx-20">
+
+      <div class=" ti text-left text-primary text-h3 ">
               Make You Product Upto Date With our Latest CVE's Database.
             </div>
-            <div class="t2 text-left text-grey-8 text-h6 q-py-lg q-md:w-1/2">
+            <div class="t2 text-left text-grey-8 text-body1 py-6 ">
               Purchase a plan according to your need and make sure your system
               is upto date with latest path of vulnerability.
             </div>
+
             <div class="flex">
               <q-img
                 src="https://seekvectorlogo.com/wp-content/uploads/2017/12/microsoft-vector-logo.png"
@@ -32,9 +33,9 @@ s
               <q-img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Microsoft_Office_2013-2019_logo_and_wordmark.svg/1024px-Microsoft_Office_2013-2019_logo_and_wordmark.svg.png"
                 style="height: 20px; max-width: 80px"
-                class="responsive q-mx-md"
+                class="responsive mx-6"
               />
-              <div class="ti text-primary text-weight-bold q-mx-xs">
+              <div class="ti text-primary text-weight-bold -mt-6">
                 view more vendors
               </div>
               <q-btn
@@ -42,57 +43,61 @@ s
                 size="sm"
                 icon="fa solid fa-right-long"
                 flat
-                class="q-mb-sm"
+                class=" -mt-4"
               ></q-btn>
+              </div>
               <img
                 src="~assets/mail.svg"
-                class="q-mx-xl q-py-sm gt-md q-gutter-y-lg"
-                style="height: 500px"
+                class="gt-md ml-auto "
+                style="height: 600px"
               />
             </div>
-          </div>
-        </div>
-        <!-- RIGHT COLUMN -->
-
-        <div class="col-md-6 col-lg-6 col-xs-10 col-sm-10">
-          <img
+            </div>
+            </div>
+            <!-- RIGHT COLUMNNN -->
+            <div class="col-md-6 col-lg-6 col-xs-10 col-sm-10 ">
+              <img
             src="~assets/pic-1.svg"
-            class="responsive q-mb-xl gt-sm"
-            style="height: 300px"
+            class=" ml-auto mb-16 px-14"
+            style="height:330px"
           />
 
-          <q-space />
-          <div class="q-py-xl q-mb-xl q-space-x-lg q-md:w-1/2">
-            <div class="t3 text-left text-primary q-space-y-lg text-h3">
+          <div class="py-6 mb-5 space-x-4 ">
+            <div class="text-left">
+            <q-btn
+                color="white"
+                size="md"
+                icon="fa  fa-users"
+                flat
+                class=" mx-4 mb-10 bg-grey-7 h-14"
+                />
+                </div>
+
+            <div class="t3 text-left text-primary text-h3 ">
               Deliver what your customers want every time.
             </div>
             <div
-              class="t4 text-left text-grey-8 text-body1 q-space-y-lg q-py-lg q-md:w-1/2"
+              class="t4 text-left text-grey-8 text-body1 my-4 "
             >
               Deliver what your customers want every time Lorem ipsum dolor, sit
-              amet consectetur adipisicing elit. placeat, exercitationem
-              magnaaaihm quollmlld molestias quioninina aspernatur deserunt
+              amet consectetur adipisicing elit. placeat, in qn exercitatio
+              magnaa in the quollmlld molestias quioninina aspernatur deserunt
               voluptatibus.
             </div>
-            <div class="row gt-md">
-              <div class="text-primary text-weight-bold text-h4 t5">24/7</div>
-              <div class="text-primary text-weight-bold text-h4 t5 q-mx-xl">
-                99.9%
-              </div>
-              <div class="text-primary text-weight-bold text-h4 t5 q-mx-xs">
-                100k+
-              </div>
+            <div class="row ">
+              <div class="text-primary text-weight-bold text-h4 t5 ">24/7</div>
+              <div class="text-primary text-weight-bold text-h4 t5 mx-14 ">99.9%</div>
+              <div class="text-primary text-weight-bold text-h4 t5 mx-4 ">100k+</div>
             </div>
-            <div class="row q-gutter-y-sm gt-md inline">
-              <div class="text-grey-7 text-h6 t5">Delivery</div>
-              <div class="text-grey-7 text-h6 t5 q-mx-xl">Surity</div>
-              <div class="text-grey-7 text-h6 t5 q-mx-lg">Members</div>
+            <div class="row ">
+              <div class="text-grey-7 text-h6 t5 ">Delivery</div>
+              <div class="text-grey-7 text-h6 t5 mx-14 ">Surity</div>
+              <div class="text-grey-7 text-h6 t5 mx-11 ">Members</div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-    <div class="bg-primary text-h1 justify-center">
+            </div>
+          </div>
+<div class="bg-primary text-h1 justify-center">
       <div class="t5 text-h4 text-white text-center q-py-lg">
         All-in-one Platform
       </div>
@@ -104,7 +109,7 @@ s
         <div class="row">
           <!-- column-1 -->
           <div
-            class="col-md-3 col-lg-3 col-xs-8 col-sm-8 q-mx-md q-py-lg q-gutter-x-sm"
+            class="col-md-3 col-lg-3 col-xs-8 col-sm-8 q-mx-md q-py-lg q-mb-sm q-gutter-x-lg"
           >
             <div class="t6 text-h6 text-white q-mx-lg text-center row">
               Inivite team members
@@ -116,11 +121,11 @@ s
                 class="q-mb-xs"
               ></q-btn>
             </div>
-            <div class="text-white q-mx-lg text-body1">
+            <div class="text-white q-mx-lg text-body1" style="max-width:290px">
               Tempor tellus in aliquet eu et sit nulla tellus. Suspendisse est,
               molestie blandit quis ac. Lacus.
             </div>
-            <div class="t6 text-h6 text-white q-mx-lg q-mt-md text-center row">
+            <div class="t6 text-h6 text-white q-mx-lg q-mt-xl text-center row">
               Inivite team members
               <q-btn
                 color="white"
@@ -130,14 +135,14 @@ s
                 class="q-mb-xs"
               ></q-btn>
             </div>
-            <div class="text-white text-body1 q-mx-lg">
+            <div class="text-white text-body1 q-mx-lg"  style="max-width:290px">
               Tempor tellus in aliquet eu et sit nulla tellus. Suspendisse est,
               molestie blandit quis ac. Lacus.
             </div>
           </div>
           <!-- column-2 -->
           <div
-            class="col-md-3 col-lg-3 col-xs-8 col-sm-8 q-py-lg q-gutter-x-sm"
+            class="col-md-3 col-lg-3 col-xs-8 col-sm-8 -mx-3 q-py-lg q-gutter-x-lg"
           >
             <div class="t6 text-h6 text-white q-mx-xl text-center row">
               Notifications
@@ -149,11 +154,11 @@ s
                 class="q-mb-xs"
               ></q-btn>
             </div>
-            <div class="text-white text-body1 q-mx-xl">
+            <div class="text-white text-body1 q-mx-xl" style="max-width:290px">
               Tempor tellus in aliquet eu et sit nulla tellus. Suspendisse est,
               molestie blandit quis ac. Lacus.
             </div>
-            <div class="t6 text-h6 text-white q-mx-xl q-mt-md text-center row">
+            <div class="t6 text-h6 text-white q-mx-xl q-mt-xl text-center row">
               Notifications
               <q-btn
                 color="white"
@@ -163,7 +168,7 @@ s
                 class="q-mb-xs"
               ></q-btn>
             </div>
-            <div class="text-white text-body1 q-mx-xl">
+            <div class="text-white text-body1 q-mx-xl" style="max-width:290px">
               Tempor tellus in aliquet eu et sit nulla tellus. Suspendisse est,
               molestie blandit quis ac. Lacus.
             </div>
@@ -171,7 +176,7 @@ s
 
           <!-- column-3 -->
           <div
-            class="col-md-3 col-lg-3 col-xs-8 col-sm-8 q-py-lg q-gutter-x-sm"
+            class="col-md-3 col-lg-3 col-xs-8 col-sm-8 q-py-lg q-gutter-x-md"
           >
             <div class="t6 text-h6 text-white q-mx-xl text-center row">
               List view
@@ -183,11 +188,11 @@ s
                 class="q-mb-xs"
               ></q-btn>
             </div>
-            <div class="text-white text-body1 q-mx-xl">
+            <div class="text-white text-body1 q-mx-xl" style="max-width:290px" >
               Tempor tellus in aliquet eu et sit nulla tellus. Suspendisse est,
               molestie blandit quis ac. Lacus.
             </div>
-            <div class="t6 text-h6 text-white q-mx-xl q-mt-md text-center row">
+            <div class="t6 text-h6 text-white q-mx-xl q-mt-xl text-center row">
               List view
               <q-btn
                 color="white"
@@ -197,14 +202,14 @@ s
                 class="q-mb-xs"
               ></q-btn>
             </div>
-            <div class="text-white text-body1 q-mx-xl">
+            <div class="text-white text-body1 q-mx-xl" style="max-width:290px">
               Tempor tellus in aliquet eu et sit nulla tellus. Suspendisse est,
               molestie blandit quis ac. Lacus.
             </div>
           </div>
           <!-- column-4 -->
           <div
-            class="col-md-3 col-lg-3 col-xs-7 col-sm-7 q-py-lg q-gutter-x-md"
+            class="col-md-3 col-lg-3 col-xs-8 col-sm-8 q-py-lg q-gutter-x-md"
           >
             <div class="t6 text-h6 text-white q-mx-xl text-center row">
               Boards
@@ -216,11 +221,11 @@ s
                 class="q-mb-xs"
               ></q-btn>
             </div>
-            <div class="text-white text-body1 q-mx-xl">
+            <div class="text-white text-body1 q-mx-xl" style="max-width:290px">
               Tempor tellus in aliquet eu et sit nulla tellus. Suspendisse est,
               molestie blandit quis ac. Lacus.
             </div>
-            <div class="t6 text-h6 text-white q-mx-xl q-mt-md text-center row">
+            <div class="t6 text-h6 text-white q-mx-xl q-mt-xl text-center row">
               Boards
               <q-btn
                 color="white"
@@ -230,23 +235,23 @@ s
                 class="q-mb-xs"
               ></q-btn>
             </div>
-            <div class="text-white text-body1 q-mx-xl">
+            <div class="text-white text-body1 q-mx-xl" style="max-width:290px">
               Tempor tellus in aliquet eu et sit nulla tellus. Suspendisse est,
               molestie blandit quis ac. Lacus.
             </div>
           </div>
         </div>
       </div>
-      <div class="text-primary">________________________________</div>
+
     </div>
     <div class="justify-center">
       <div class="t5 text-h2 text-primary text-center q-mt-xl q-my-xl">
         Trusted by over 5 businesses
       </div>
-      <div class="row justify-center">
+      <div class="row justify-center mx-16">
         <!-- column-1 -->
         <div
-          class="col-md-3 col-lg-3 col-xs-8 col-sm-8 q-mx-md q-py-lg q-gutter-x-sm q-mx-xl"
+          class="col-md-3 col-lg-3 col-xs-8 col-sm-8 mx-16 q-mt-xl q-gutter-x-sm q-mx-xl"
         >
           <div class="t6 text-h4 text-secondary q-mb-xl q-mx-xl row">
             <q-btn
@@ -311,15 +316,15 @@ s
             <q-btn
               color="secondary"
               size="lg"
-              icon="fa fa-line"
+              icon="fa fa-u"
               flat
               class="q-mb-xs"
             ></q-btn>
-            Statamic
+            StaticKit
           </div>
 
           <div
-            class="t6 text-h4 text-secondary q-mx-xl q-mt-md text-center row"
+            class="t6 text-h4 text-secondary q-mx-xl q-mt-xl text-center row"
           >
             <q-btn
               color="secondary"
@@ -333,7 +338,6 @@ s
         </div>
       </div>
     </div>
-
     <div class="justify-center ">
       <q-separator color="accent" class="q-mt-xl" inset />
 
@@ -441,14 +445,14 @@ s
         unelevated
         rounded
         color="info"
-        class="text-h6 q-mx-lg lowercase"
+        class="text-h6 q-mx-lg capitalize"
         label="Learn More"
       />
       <q-btn
         unelevated
         rounded
         color="positive"
-        class="text-h6"
+        class="text-h6 q-mx-lg capitalize"
         label="Get Started"
       />
     </div>
@@ -490,10 +494,12 @@ s
     <div class="row text-grey-6 text-h6 q-gutter-x-xl justify-center">
       <div>© 2020 Workflow, Inc. All rights reserved.</div>
     </div>
+
   </q-page>
 </template>
 
 <script>
+
 import { defineComponent } from "vue";
 
 export default defineComponent({
@@ -501,25 +507,31 @@ export default defineComponent({
 });
 </script>
 <style>
+ @import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
 .ti {
   font-family: "Sen-bold";
   font-weight: bold;
-  max-width: 70%;
+  max-width: 82%;
+  line-height:70px
 }
 .t2 {
   font-family: "Sen";
   font-weight: bold;
-  max-width: 82%;
+  max-width: 80%;
 }
 .t3 {
   font-family: "Sen-bold";
   font-weight: bold;
-  max-width: 75%;
+  max-width: 65%;
+  line-height:70px
 }
 .t4 {
   font-family: "Sen";
   font-weight: bold;
-  max-width: 75%;
+  max-width: 69%;
 }
 .t5 {
   font-family: "Sen-bold";
