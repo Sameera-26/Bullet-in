@@ -41,8 +41,7 @@ See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-webpack/quas
 
 ![image](https://user-images.githubusercontent.com/60313827/191823318-8139e01a-4a92-4bd4-9365-4d03c2bdb7b7.png)
 ![image](https://user-images.githubusercontent.com/60313827/191822992-6a1463b6-c54e-48fa-835a-e20152feeadc.png)
-![image](https://user-images.githubusercontent.com/60313827/190926623-c99ec13e-8180-4![image](https://user-images.githubusercontent.com/60313827/191823072-9d539066
-5c38-45b8-9707-08d0710c4c60.png)
+![image](https://user-images.githubusercontent.com/60313827/191823446-2e67dcc5-819e-455a-be26-3048a2032dc2.png)
 ![image](https://user-images.githubusercontent.com/60313827/191823221-518984de-f111-4e95-82f9-c249bc66c85c.png)
 ![image](https://user-images.githubusercontent.com/60313827/190926659-f343da9b-0639-4347-9afa-a4b6c0d3bce8.png)
 
